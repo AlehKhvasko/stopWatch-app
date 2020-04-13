@@ -12,7 +12,7 @@ class App extends React.Component {
 //count method set time from state + 1 using function setInterval
 //reset button set state time to 0
 //pause use clear interval function
-
+//bind timer and startTimer
 
     this.state = {
       time: 0,
