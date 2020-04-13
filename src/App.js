@@ -9,7 +9,9 @@ class App extends React.Component {
 //onclick method of start
 //compare in method event with id of buttons
 //start button set state to 0 and use another method to count from 0
-//pause button 
+//count method
+//reset button set state time to 0
+//pause use clear interval function
 
 
     this.state = {
