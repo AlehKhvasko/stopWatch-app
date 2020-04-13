@@ -6,10 +6,15 @@ class App extends React.Component {
     super(props);
 
 //create three buttons start/ pause/ reset
+//onclick method of start
+//compare in method event with id of buttons
+//start button set state to 0 and use another method to count from 0
+//pause button 
+
 
     this.state = {
       time: 0,
-      clearId: null
+      clearId: 0,
     };
 
     this.timer = this.timer.bind(this);
