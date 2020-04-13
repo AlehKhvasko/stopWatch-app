@@ -5,6 +5,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+//create three buttons start/ pause/ reset
+
     this.state = {
       time: 0,
       clearId: null
