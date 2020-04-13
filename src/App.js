@@ -9,7 +9,7 @@ class App extends React.Component {
 //onclick method of start
 //compare in method event with id of buttons
 //start button set state to 0 and use another method to count from 0
-//count method
+//count method set time from state + 1 using function setInterval
 //reset button set state time to 0
 //pause use clear interval function
 
@@ -26,7 +26,7 @@ class App extends React.Component {
     e.preventDefault();
     const buttonClicked = e.target.id;
     if(buttonClicked === 'start') {
-      let id = setInterval(this.startTimer, 1000);
+      let id = setInterval(this.startTimer);
       this.setState({ clearId: id });
     } else if(buttonClicked === 'reset') {
       this.setState({ time: 0 });
