@@ -7,7 +7,7 @@ class App extends React.Component {
 
 //create three buttons start/ pause/ reset
 //onclick method of start
-//compare onclick method  with id of buttons
+//compare onclick method with id of buttons
 //start button set state to 0 and use another method to count from 0
 //count method set time from state + 1 using function setInterval
 //reset button set state time to 0
